@@ -42,3 +42,11 @@ gradle build
 docker build -t server3 .
 docker run --rm -p 8080:8080 -e WHO=Docker server3
 ```
+
+## Further Reading
+
+* [Ruby Base Images](https://hub.docker.com/_/ruby/)
+* [Java Base Images](https://hub.docker.com/_/openjdk/)
+* [Dockerfile reference](https://docs.docker.com/engine/reference/builder/)
+* [Docker build command](https://docs.docker.com/engine/reference/commandline/build/)
+* [Docker run command](https://docs.docker.com/engine/reference/commandline/run/)
